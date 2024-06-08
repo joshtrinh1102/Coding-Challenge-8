@@ -4,6 +4,22 @@
 
     </head>
     <body>
-        
+        <form actions="" >
+            <label for="name" required> Name:</label><br>
+                <input type="text" name="name" id="name"><br>
+            <label for="email" required> Email address:</label><br>
+                <input type="text" name="email" id="email"><br>
+            <label for="date">Choose event date:</label><br>
+                <input type="date" id="date"><br>
+            <label for="preference">Preference:</label><br>
+                <input type="checkbox" id="choice1" name="choice1" value="vegetarian">
+                    <label for="choice1">Vegetarian </label><br>
+                <input type="checkbox" id="choice2" name="choice2" value="non-vegetarian">
+                    <label for="choice2">Non-Vegetarian </label><br>
+                <input type="checkbox" id="choice3" name="choice3" value="vegan">
+                    <label for="choice3">Vegetarian </label><br>
+            <button type="button" id="Submit" required>Submit</button>
+        </form>
+        <div id="feedback"></div><!--Create registration form with inputs and display area.--->
     </body>
 </html>
